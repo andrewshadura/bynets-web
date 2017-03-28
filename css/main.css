@@ -1,0 +1,84 @@
+body
+{
+  padding: 60px 10px 40px 10px;
+}
+
+.navbar-inner
+{
+}
+
+.navbar-form input[type="text"]
+{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.navbar-form input
+{
+  margin-top: 7px;
+}
+
+.btn
+{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+h1
+{
+  font-size: 30px;
+}
+
+h2
+{
+  font-size: 24px;
+}
+
+h3
+{
+  font-size: 20px;
+}
+
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container
+{
+  min-width: 835px;
+  max-width: 940px;
+  width: 100%;
+}
+
+#markdown-toc li
+{
+  list-style-type: none;
+  margin-bottom: 4px;
+}
+
+#markdown-toc ul
+{
+  margin-left: 16px;
+  margin-bottom: 5px;
+  line-height: 1.25;
+  font-size: 0.80rem;
+}
+
+@media screen and (min-width: 1400px)
+{
+  #markdown-toc
+  {
+    position: fixed;
+    top: 124px;
+    max-width: 200px;
+    margin-left: -210px;
+  }
+}
+
+@media screen and (min-width: 1480px)
+{
+  #markdown-toc
+  {
+    max-width: 270px;
+    margin-left: -280px;
+  }
+}

@@ -1,0 +1,5 @@
+#baseurl: http://bynets.org
+markdown: kramdown
+permalink: pretty
+gems:
+  - jekyll-feed

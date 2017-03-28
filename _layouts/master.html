@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="robots" content="index,follow">
+    <title>ByNets - {{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/img/bynets.jpg" rel="shortcut icon" type="image/jpeg" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/css/main.css" rel="stylesheet">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+    {% for script_src in page.script_srcs %}
+    <script src="{{script_src}}"></script>
+    {% endfor %}
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">ByNets</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              {% if page.url == "/" %}
+                <li class="active"><a href="/">Home</a></li>
+              {% else %}
+                <li><a href="/">Home</a></li>
+              {% endif %}<!--
+              {% if page.url == "/FAQ/" %}
+                <li class="active"><a href="/FAQ">FAQ</a></li>
+              {% else %}
+                <li><a href="/FAQ">FAQ</a></li>
+              {% endif %}-->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <article>
+    <div class="container">
+      <div class="row-fluid">
+       <div class="span12">
+          {{ content }}
+        </div>
+      </div>
+    </div> <!-- /container -->
+    </article>
+  </body>
+</html>
