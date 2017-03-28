@@ -19,8 +19,8 @@ Client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients)
  * [**irc://irc.bynets.org:6668**](irc://irc.bynets.org:6668) for non-SSL with UTF-8 encoding, IPv4 and IPv6.
  * [**ircs://irc.bynets.org:6697**](ircs://irc.bynets.org:6697) for SSL with CP1251 encoding (alternative ports: 5190, 9944), IPv4 and IPv6.
  * [**irc://irc.bynets.org:6667**](irc://irc.bynets.org:6667) for non-SSL with CP1251 encoding, IPv4 and IPv6.
- * SSL is supported on all of our servers. <!-- The server certificates are signed
-   by the [Let's Encrypt](https://letsencrypt.org/) certification authority. -->
+ * SSL is supported on all of our servers. The server certificates are signed
+   by the [Let's Encrypt](https://letsencrypt.org/) certification authority.
 
 We offer IRC services (NickServ, ChanServ) for nick and channel registration.
 
